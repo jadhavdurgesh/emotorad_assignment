@@ -72,29 +72,6 @@ class HomePage extends StatelessWidget {
                   ),
                 ),
               ),
-              // InkWell(
-              //   onTap: () {
-              //     context.read<AppCubit>().scratchCard();
-              //   },
-              //   child: Container(
-              //     width: 400,
-              //     height: 100,
-              //     alignment: Alignment.center,
-              //     decoration: BoxDecoration(
-              //       color: Colors.green,
-              //       borderRadius: BorderRadius.circular(10),
-              //     ),
-              //     child: Text(
-              //       state.canScratch
-              //           ? "You can scratch now"
-              //           : (state.countDown ~/ 60).toString() +
-              //               ":" +
-              //               (state.countDown % 60).toString() +
-              //               " seconds left",
-              //       style: TextStyle(fontSize: 20),
-              //     ),
-              //   ),
-              // ),
               SizedBox(
                 height: 80,
               ),
